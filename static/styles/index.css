@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+    color: white;
+    min-height: 100vh;
+}
+
+.site-name {
+    font-family: 'Anton SC', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    background: linear-gradient(90deg, #604b6d, #9573a9);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.menu {
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 32px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button {
+    margin-left: 10px;
+    background-color: #252524;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+
+.ceneter-positiion-widt {
+    width: fit-content;
+}
+
+.bottom-part {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#code-query {
+    width: 400px;
+    height: 50px;
+    resize: none;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    line-height: 1.5em;
+}
+
+#code-query::-webkit-scrollbar {
+    display: none; 
+  }
+
+.logo {
+    width: 190px;
+    border-radius: 9999px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.code-query {
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #252524;
+    color: white;
+}
+
+.code-shower {
+    padding: 20px 30px;
+    box-sizing: border-box;
+    max-height: 70vh;
+    min-width: 576px;
+    border: 1px solid white;
+    overflow-y: auto;
+}
+
+.message {
+    width: fit-content !important;
+    max-width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+
+

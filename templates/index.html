@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGenie</title>
+    <link rel="stylesheet" href="../static/styles/index.css">
+    <link rel="stylesheet" href="../static/styles/adaptive.css">
+    <script src="../static/scripts/index.js" defer></script>
+    <script src="../static/scripts/indexMenubtns.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+</head>
+<body class="body">
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col menu">
+                <nav>
+                    <ul>
+                        <li class="item"><span class="site-name">CodeGenie</span></li>
+                        <li class="item">
+                            <div class="nav-items">
+                                <div class="help nav-button">/?</div>
+                                <div class="about nav-button">/About</div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col upper-part mx-auto">
+                <div class="logo-container ceneter-positiion-widt mx-auto"><img src="../static/images/logo.webp" alt="Logo" class="logo"></div>
+                <div class="input-data-holder ceneter-positiion-widt mx-auto">
+                    <textarea name="code-query" id="code-query" placeholder="Введите свой запрос" class="code-query"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bottom-part">
+                <div class="code-shower col-6-md">
+                    <div class="row">
+                        <div class="server-answer message">
+                            example answer
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

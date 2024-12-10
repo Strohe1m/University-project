@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+    .code-query {
+        width: 300px !important;
+    }
+
+    .site-name {
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .code-shower {
+        min-width: 300px;   
+        width: 90%;
+    }
+
+  }
+
+
+
